@@ -4,9 +4,9 @@ var $_GET = $_GET(),
     server = $_GET['server'],
     title2 = $_GET['title'],
     startDate = $_GET['startDate'],
-    startDate2 = "&startDate=" + startDate
+    startDate2 =  startDate
     endDate = $_GET['endDate']
-    endDate2 = "&endStart=" + endDate
+    endDate2 =  endDate
     console.log(startDate)
     console.log(endDate)
 
